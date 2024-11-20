@@ -53,7 +53,7 @@
     "@types/mongodb" "*"
     "@types/node" "*"
 
-"@types/node@*", "@types/node@^12.0.4":
+"@types/node@*":
   version "12.7.3"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.3.tgz#27b3f40addaf2f580459fdb405222685542f907a"
   integrity sha512-3SiLAIBkDWDg6vFo0+5YJyHPWU9uwu40Qe+v+0MH8wRKYBimHvvAOyk3EzMrD/TrIlLYfXrqDqrg913PynrMJQ==
@@ -1290,6 +1290,11 @@ mkdirp@^0.5.1, mkdirp@^0.5.5:
   dependencies:
     minimist "^1.2.5"
 
+module-alias@^2.2.2:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/module-alias/-/module-alias-2.2.3.tgz#ec2e85c68973bda6ab71ce7c93b763ec96053221"
+  integrity sha512-23g5BFj4zdQL/b6tor7Ji+QY4pEfNH784BMslY9Qb0UnJWRAt+lQGLYmRaM0KDBwIG23ffEBELhZDP2rhi9f/Q==
+
 mongodb-core@3.2.7:
   version "3.2.7"
   resolved "https://registry.yarnpkg.com/mongodb-core/-/mongodb-core-3.2.7.tgz#a8ef1fe764a192c979252dacbc600dc88d77e28f"
@@ -2116,21 +2121,17 @@ tar@^4:
     safe-buffer "^5.2.1"
     yallist "^3.1.1"
 
-telegraf@^3.32.0:
-  version "3.32.0"
-  resolved "https://registry.yarnpkg.com/telegraf/-/telegraf-3.32.0.tgz#70ec304b9c8645f8988924ebe90e5c00ee46ddbb"
-  integrity sha512-5ZHiovyuG1rVLygJjaqf57wDt8e1nijAinKXCxN1tyUZ4BcrkZW/z5rVTEXA+KegpFbWxKKv3KnJwUJrKDqD0Q==
+telegraf@^3.40.0:
+  version "3.40.0"
+  resolved "https://registry.yarnpkg.com/telegraf/-/telegraf-3.40.0.tgz#2234eaf7850b0767b2975976e4d264fe421d8c03"
+  integrity sha512-wulVjRHrX2zQwbk1/jzg3Ll9Kr0xC7ofXsRPJgcV2yoCFx5oSU41ZaDKNRPsLhjXxW4s9iNM2S2N/ESyiZxTMQ==
   dependencies:
-    "@types/node" "^12.0.4"
     debug "^4.0.1"
+    minimist "^1.2.0"
+    module-alias "^2.2.2"
     node-fetch "^2.2.0"
     sandwich-stream "^2.0.1"
-    telegram-typings "^3.6.0"
-
-telegram-typings@^3.6.0:
-  version "3.6.1"
-  resolved "https://registry.yarnpkg.com/telegram-typings/-/telegram-typings-3.6.1.tgz#1288d547f8694b61f1c01c2993e295f3114d9e25"
-  integrity sha512-njVv1EAhIZnmQVLocZEADYUyqA1WIXuVcDYlsp+mXua/XB0pxx+PKtMSPeZ/EE4wPWTw9h/hA9ASTT6yQelkiw==
+    typegram "^3.10.0"
 
 term-size@^1.2.0:
   version "1.2.0"
@@ -2218,6 +2219,11 @@ typegoose@^5.9.0:
   integrity sha512-oczsIaQeT24rxbFfWIq/qyrCFYt1wLG5lgu9GLgeF0X9y07C8l/f2uk1+wDLVroz9j3SlK9jpz6j00kSFogzMg==
   dependencies:
     reflect-metadata "^0.1.13"
+
+typegram@^3.10.0:
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/typegram/-/typegram-3.12.0.tgz#e35e2e50ced1c2b5775176c5b3be5dfffdf03a1a"
+  integrity sha512-/VrU0sJv8BdOsBIpYT4w35C7dPg5YyKP6fLiYN9qYXRZ86TVIiw0ZypkzElTAfDVsJtJSluGAufUrcX7VRSIYQ==
 
 typescript@^3.6.2:
   version "3.6.2"
