@@ -25,7 +25,7 @@
     "mongoose": "^5.6.11",
     "nodemon": "^1.19.1",
     "reflect-metadata": "^0.1.13",
-    "telegraf": "^3.32.0",
+    "telegraf": "^3.40.0",
     "tslint": "^5.19.0",
     "typegoose": "^5.9.0",
     "typescript": "^3.6.2"
